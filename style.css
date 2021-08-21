@@ -1,0 +1,61 @@
+
+.name
+{
+    /* width: 200px; */
+    color: white;
+    font-size: 8vw;
+    border-radius: 30px;color: white;
+    font-size: 8vw;
+    border-radius: 30px;
+}
+.place
+{
+    padding-left: 18vw;
+    padding-right: 18vw;
+    text-align: center;
+    height: 600px ;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sajek
+{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(resources/saju.jpg);
+}
+.sent_martin
+{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(resources/sent1.jpg);
+}
+.sundarban
+{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(resources/sundarban.jpg);
+
+}
+.coxs_bazar
+{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(resources/coxs2.jpg);
+}
+.srimangal
+{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(resources/srimangal.jpg);
+}
+.kuakata
+{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(resources/kuakata.jpg);
+}
+.dis
+{
+    color: white;
+    border-top: 8vw solid transparent;
+}
+.source
+{
+    text-align: end;
+    color: darkslategrey;
+}
+.but
+{
+    margin-top: 20px;
+    /* font-size: 2vw; */
+    border-radius: 10px;
+}
