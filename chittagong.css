@@ -1,0 +1,47 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    top: 0;
+    left: 0;
+}
+.main h1
+{
+    border-top: 50px solid black;
+}
+.area
+{
+    position: relative;
+    width: 200px;
+    height: 140px;
+    border: 5px solid black;
+    overflow: hidden;
+}
+.photo img
+{
+    width: 200px;
+    height: auto;
+    transition: 1s;
+}
+.detail
+{
+    color: wheat;
+    font-size: 10px;
+    text-align: center;
+    position: absolute;
+    width: 40vw;
+    height: 50vw;
+    top: 27vw;
+    transition: 1s;
+}
+.area:hover .detail
+{
+    background-color: rgba(7, 49, 46, 0.514);
+    top: 0;
+    transition: top 1s;
+}
+.area:hover img
+{
+    transform: scale(1.5);
+    transition: transform 1s;
+}
